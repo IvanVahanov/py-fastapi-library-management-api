@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, Date, ForeignKey
 from sqlalchemy.orm import relationship
-from db.databse import Base
+from databse import Base
 
 class Author(Base):
     __tablename__ = "authors"
